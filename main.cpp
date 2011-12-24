@@ -14,10 +14,10 @@ int main(int argc, char* argv[])
   
   //string output_file[FILES_SIZE] = {"./opw.dat","./ifc.dat","./tdtr.dat","./aha.dat","./aha_opw.dat","./threshold_opw.dat","./sttrace_opw.dat","./us.dat","./dp.dat","bellman.dat","bellman_error.dat"};
   vector<string> input_array;
-  input_array.push_back("online_algo_new_me120_2.log");
-  input_array.push_back("online_algo_new_me150_2.log");
-  input_array.push_back("online_algo_new_me200_2.log");
-  input_array.push_back("online_algo_new_me250_2.log");
+  input_array.push_back("CC_ER_mem100.log");
+  input_array.push_back("CC_ER_mem150.log");
+  input_array.push_back("CC_ER_mem200.log");
+  input_array.push_back("CC_ER_mem250.log");
   
   
   
@@ -25,10 +25,10 @@ int main(int argc, char* argv[])
   
   
   vector<string> output_array;
-  output_array.push_back("new_me120_2.dat");
-  output_array.push_back("new_me150_2.dat");
-  output_array.push_back("new_me200_2.dat");
-  output_array.push_back("new_me250_2.dat");
+  output_array.push_back("CC_DR_mem100.dat");
+  output_array.push_back("CC_DR_mem150.dat");
+  output_array.push_back("CC_DR_mem200.dat");
+  output_array.push_back("CC_DR_mem250.dat");
   
   
   
