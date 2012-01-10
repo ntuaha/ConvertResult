@@ -14,11 +14,10 @@ int main(int argc, char* argv[])
   
   //string output_file[FILES_SIZE] = {"./opw.dat","./ifc.dat","./tdtr.dat","./aha.dat","./aha_opw.dat","./threshold_opw.dat","./sttrace_opw.dat","./us.dat","./dp.dat","bellman.dat","bellman_error.dat"};
   vector<string> input_array;
-  input_array.push_back("STB_CR_mem20.log");
-  input_array.push_back("STB_CR_mem40.log");
-  input_array.push_back("STB_CR_mem60.log");
-  input_array.push_back("STB_CR_mem80.log");
-  input_array.push_back("STB_CR_mem100.log");
+  input_array.push_back("BeB_CR_mem20.log");
+  input_array.push_back("BeB_CR_mem40.log");
+  input_array.push_back("BeB_CR_mem60.log");
+
 
   
   
@@ -27,11 +26,9 @@ int main(int argc, char* argv[])
   
   
   vector<string> output_array;
-  output_array.push_back("STB_CR_mem20.dat");
-  output_array.push_back("STB_CR_mem40.dat");
-  output_array.push_back("STB_CR_mem60.dat");
-  output_array.push_back("STB_CR_mem80.dat");
-  output_array.push_back("STB_CR_mem100.dat");
+  output_array.push_back("BeB_CR_mem20.dat");
+  output_array.push_back("BeB_CR_mem40.dat");
+  output_array.push_back("BeB_CR_mem60.dat");
   
   
   
