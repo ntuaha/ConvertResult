@@ -14,10 +14,12 @@ int main(int argc, char* argv[])
   
   //string output_file[FILES_SIZE] = {"./opw.dat","./ifc.dat","./tdtr.dat","./aha.dat","./aha_opw.dat","./threshold_opw.dat","./sttrace_opw.dat","./us.dat","./dp.dat","bellman.dat","bellman_error.dat"};
   vector<string> input_array;
-  input_array.push_back("Bellman_CR.log");
-
-
-
+  input_array.push_back("Bellman_CR_er10.log");
+  input_array.push_back("Bellman_CR_er15.log");
+  input_array.push_back("Bellman_CR_er20.log");
+  
+  
+  
   
   
   
@@ -25,8 +27,10 @@ int main(int argc, char* argv[])
   
   
   vector<string> output_array;
-  output_array.push_back("Bellman_CR.dat");
-
+  output_array.push_back("Bellman_CR_er10_10.dat");
+  output_array.push_back("Bellman_CR_er15_10.dat");
+  output_array.push_back("Bellman_CR_er20_10.dat");
+  
   
   
   
